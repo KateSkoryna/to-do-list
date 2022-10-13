@@ -1,8 +1,8 @@
-import { Button } from 'components/Button/Button';
-import css from './TaskForm.module.css';
+import { Button } from "components/Button/Button";
+import css from "./TaskForm.module.css";
 
 export const TaskForm = () => {
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
     form.reset();
